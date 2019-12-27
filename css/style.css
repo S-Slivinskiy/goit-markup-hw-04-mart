@@ -148,15 +148,13 @@ html {
   height: 40px;
   position: relative;
 }
-.gallery-div:hover .gallery-header,
-.gallery-div:focus .gallery-header {
+.gallery-link:hover .gallery-header {
   background-color: var(--green-choice-and-top-line);
 }
-.gallery-div:hover .price,
-.gallery-div:focus .price {
+.gallery-link:hover .price {
   background-color: var(--green-choice-price);
 }
-.gallery-div .gallery-img {
+.gallery-img {
   width: 255px;
   position: absolute;
 }
