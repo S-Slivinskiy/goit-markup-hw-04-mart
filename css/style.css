@@ -148,15 +148,15 @@ html {
   height: 40px;
   position: relative;
 }
-.gallery-header:hover,
-.gallery-header:focus {
+.gallery-div:hover .gallery-header,
+.gallery-div:focus .gallery-header {
   background-color: var(--green-choice-and-top-line);
 }
-.price:hover,
-.price:focus {
+.gallery-div:hover .price,
+.gallery-div:focus .price {
   background-color: var(--green-choice-price);
 }
-.gallery-img {
+.gallery-div .gallery-img {
   width: 255px;
   position: absolute;
 }
@@ -241,6 +241,7 @@ html {
 .blog-lines {
   border: none;
   margin-left: 0px;
+  margin-bottom: 45px;
   background-color: var(--green-blog-blog-and-focus);
   width: 135px;
   height: 3px;
