@@ -18,15 +18,20 @@ html {
   --other-font: 'Open Sans', sans-serif;
 }
 .body {
-  width: 1170px;
+  font-family: var (var(--main-font));
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-top: 18px;
-  margin-right: 30px;
-  height: 30px;
 }
 .logo {
   display: flex;
@@ -44,8 +49,7 @@ html {
   font-weight: 300;
   font-size: 30px;
 }
-.nav {
-}
+
 .menu {
   margin: 0px;
   padding: 0px;
@@ -71,24 +75,20 @@ html {
 .nav-link:focus {
   color: var(--green-blog-blog-and-focus);
 }
+.section {
+  text-align: center;
+  padding-top: 110px;
+}
 .top-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 30px;
+  margin: 0;
+  margin-bottom: 130px;
   font-family: var(--main-font);
   font-size: 48px;
   color: var(--h2-color);
 }
-.top-line {
-  border: none;
-  background-color: var(--green-choice-and-top-line);
-  width: 165px;
-  height: 7px;
-  margin-top: 0px;
-  margin-bottom: 95px;
-}
 .gallery {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -123,8 +123,8 @@ html {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   padding-left: 15px;
   font-family: var(--main-font);
   font-weight: 400;
@@ -138,8 +138,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
@@ -159,10 +159,12 @@ html {
   position: absolute;
 }
 .lower-header {
+  margin: 0 auto;
+  margin-bottom: 130px;
   font-family: var(--main-font);
-  font-weight: 900;
   font-size: 48px;
   color: var(--text-color);
+  }
 }
 .bottom-line {
   border: none;
@@ -171,13 +173,19 @@ html {
   height: 7px;
 }
 .blog {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
   font-size: 0px;
 }
 .blog-img {
-  width: 355px;
+  width: 350px;
+  margin-bottom: 15px;
 }
 .blog-header {
-  width: 350px;
+  margin: 0px;
+  margin-bottom: 45px;
+  text-align: left;
   font-family: var(--other-font);
   font-weight: 600;
   font-size: 18px;
@@ -185,7 +193,9 @@ html {
   color: var(--text-color);
 }
 .blog-text {
-  width: 350px;
+  margin: 0px;
+  margin-bottom: 20px;
+  text-align: left;
   font-family: var(--other-font);
   font-weight: 400;
   font-size: 14px;
@@ -217,15 +227,6 @@ html {
   border-radius: 3px;
   width: 160px;
   height: 50px;
-}
-.lower-header {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  font-family: var(--main-font);
-  font-size: 48px;
-  color: var(--text-color);
 }
 .bottom-line {
   border: none;
